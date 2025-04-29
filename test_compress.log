@@ -120,3 +120,45 @@
 2025-04-29 20:42:26.030 | SUCCESS  | __main__:<module>:145 - Processed files exist correctly
 2025-04-29 20:42:27.116 | INFO     | __main__:visualize_comparison:59 - Saved visualization to data/test_run/compression_comparison.png
 2025-04-29 20:42:27.117 | INFO     | __main__:<module>:150 - All tests passed successfully!
+2025-04-29 21:00:45.826 | INFO     | __main__:test_compress_directory:78 - Found 4 PNG files in data/raw
+2025-04-29 21:00:45.827 | INFO     | __main__:test_compress_directory:90 - Copied data/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png to data/test_run/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png
+2025-04-29 21:00:45.828 | INFO     | __main__:test_compress_directory:90 - Copied data/raw/image-fs8.png to data/test_run/raw/image-fs8.png
+2025-04-29 21:00:45.829 | INFO     | __main__:test_compress_directory:90 - Copied data/raw/TF_logo.png to data/test_run/raw/TF_logo.png
+2025-04-29 21:00:45.830 | INFO     | __main__:test_compress_directory:90 - Copied data/raw/image.png to data/test_run/raw/image.png
+2025-04-29 21:00:45.995 | DEBUG    | obsidian_utils.utils:compress_images:83 - pngquant output: 
+2025-04-29 21:00:46.032 | DEBUG    | obsidian_utils.utils:compress_images:83 - pngquant output: 
+2025-04-29 21:00:46.049 | DEBUG    | obsidian_utils.utils:compress_images:83 - pngquant output: 
+2025-04-29 21:00:46.112 | DEBUG    | obsidian_utils.utils:compress_images:83 - pngquant output: 
+2025-04-29 21:00:46.113 | INFO     | obsidian_utils.utils:report_compression:115 - Compression Summary for run test_run
+2025-04-29 21:00:46.113 | INFO     | obsidian_utils.utils:report_compression:116 - Raw size: 1.27 MB
+2025-04-29 21:00:46.113 | INFO     | obsidian_utils.utils:report_compression:117 - Compressed size: 0.48 MB
+2025-04-29 21:00:46.113 | INFO     | obsidian_utils.utils:report_compression:118 - Space saved: 0.79 MB (62.4%)
+2025-04-29 21:00:46.113 | INFO     | __main__:<module>:126 - Checking structure of directory
+2025-04-29 21:00:46.113 | SUCCESS  | __main__:<module>:130 - Run Directory: data/test_run/raw exists correctly
+2025-04-29 21:00:46.113 | INFO     | __main__:<module>:133 - Checking for PNG files in raw directory
+2025-04-29 21:00:46.113 | SUCCESS  | __main__:<module>:136 - Found 4 PNG files in raw directory
+2025-04-29 21:00:46.113 | INFO     | __main__:<module>:139 - Checking for processed files
+2025-04-29 21:00:46.113 | SUCCESS  | __main__:<module>:145 - Processed files exist correctly
+2025-04-29 21:00:46.626 | INFO     | __main__:visualize_comparison:59 - Saved visualization to data/test_run/compression_comparison.png
+2025-04-29 21:00:46.627 | INFO     | __main__:<module>:150 - All tests passed successfully!
+2025-04-29 21:01:00.888 | INFO     | __main__:test_compress_directory:85 - Found 4 PNG files in data/raw
+2025-04-29 21:01:00.888 | INFO     | __main__:test_compress_directory:97 - Copied data/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png to data/test_run/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png
+2025-04-29 21:01:00.889 | INFO     | __main__:test_compress_directory:97 - Copied data/raw/image-fs8.png to data/test_run/raw/image-fs8.png
+2025-04-29 21:01:00.889 | INFO     | __main__:test_compress_directory:97 - Copied data/raw/TF_logo.png to data/test_run/raw/TF_logo.png
+2025-04-29 21:01:00.890 | INFO     | __main__:test_compress_directory:97 - Copied data/raw/image.png to data/test_run/raw/image.png
+2025-04-29 21:01:01.071 | DEBUG    | obsidian_utils.utils:compress_images:83 - pngquant output: 
+2025-04-29 21:01:01.108 | DEBUG    | obsidian_utils.utils:compress_images:83 - pngquant output: 
+2025-04-29 21:01:01.125 | DEBUG    | obsidian_utils.utils:compress_images:83 - pngquant output: 
+2025-04-29 21:01:01.188 | DEBUG    | obsidian_utils.utils:compress_images:83 - pngquant output: 
+2025-04-29 21:01:01.189 | INFO     | obsidian_utils.utils:report_compression:115 - Compression Summary for run test_run
+2025-04-29 21:01:01.189 | INFO     | obsidian_utils.utils:report_compression:116 - Raw size: 1.27 MB
+2025-04-29 21:01:01.189 | INFO     | obsidian_utils.utils:report_compression:117 - Compressed size: 0.48 MB
+2025-04-29 21:01:01.189 | INFO     | obsidian_utils.utils:report_compression:118 - Space saved: 0.79 MB (62.4%)
+2025-04-29 21:01:01.189 | INFO     | __main__:<module>:127 - Checking structure of directory
+2025-04-29 21:01:01.189 | SUCCESS  | __main__:<module>:131 - Run Directory: data/test_run/raw exists correctly
+2025-04-29 21:01:01.189 | INFO     | __main__:<module>:134 - Checking for PNG files in raw directory
+2025-04-29 21:01:01.189 | SUCCESS  | __main__:<module>:137 - Found 4 PNG files in raw directory
+2025-04-29 21:01:01.189 | INFO     | __main__:<module>:140 - Checking for processed files
+2025-04-29 21:01:01.189 | SUCCESS  | __main__:<module>:150 - Processed files exist correctly
+2025-04-29 21:01:01.726 | INFO     | __main__:visualize_comparison:63 - Saved visualization to data/test_run/compression_comparison.png
+2025-04-29 21:01:01.727 | INFO     | __main__:<module>:155 - All tests passed successfully!
