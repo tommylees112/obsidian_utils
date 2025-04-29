@@ -1,0 +1,65 @@
+2025-04-29 20:25:16.974 | INFO     | __main__:test_compress_directory:20 - Found 3 PNG files in data/raw
+2025-04-29 20:25:48.288 | INFO     | __main__:test_compress_directory:26 - Found 3 PNG files in data/raw
+2025-04-29 20:25:48.295 | WARNING  | obsidian_utils.utils:compress_images:63 - Missing file: data/test_run/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png
+2025-04-29 20:25:48.295 | WARNING  | obsidian_utils.utils:compress_images:63 - Missing file: data/test_run/raw/TF_logo.png
+2025-04-29 20:25:48.295 | WARNING  | obsidian_utils.utils:compress_images:63 - Missing file: data/test_run/raw/image.png
+2025-04-29 20:25:48.295 | INFO     | obsidian_utils.utils:report_compression:100 - Compression Summary for run test_run
+2025-04-29 20:25:48.295 | INFO     | obsidian_utils.utils:report_compression:101 - Raw size: 0.00 MB
+2025-04-29 20:25:48.295 | INFO     | obsidian_utils.utils:report_compression:102 - Compressed size: 0.00 MB
+2025-04-29 20:25:48.295 | INFO     | obsidian_utils.utils:report_compression:103 - Space saved: 0.00 MB (0.0%)
+2025-04-29 20:25:48.295 | WARNING  | obsidian_utils.utils:report_compression:105 - Failed to compress 3 images
+2025-04-29 20:26:36.763 | INFO     | __main__:test_compress_directory:27 - Found 3 PNG files in data/raw
+2025-04-29 20:26:36.763 | INFO     | __main__:test_compress_directory:39 - Copied data/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png to data/test_run/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png
+2025-04-29 20:26:36.764 | INFO     | __main__:test_compress_directory:39 - Copied data/raw/TF_logo.png to data/test_run/raw/TF_logo.png
+2025-04-29 20:26:36.765 | INFO     | __main__:test_compress_directory:39 - Copied data/raw/image.png to data/test_run/raw/image.png
+2025-04-29 20:26:37.542 | ERROR    | obsidian_utils.utils:compress_images:72 - Compression failed for data/test_run/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png: Command '['pngquant', '--quality=65-80', '--speed=1', '--strip', '--force', '--ext=.png', '--output', 'data/test_run/processed/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png', '--', 'data/test_run/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png']' returned non-zero exit status 4.
+2025-04-29 20:26:37.549 | ERROR    | obsidian_utils.utils:compress_images:72 - Compression failed for data/test_run/raw/TF_logo.png: Command '['pngquant', '--quality=65-80', '--speed=1', '--strip', '--force', '--ext=.png', '--output', 'data/test_run/processed/TF_logo.png', '--', 'data/test_run/raw/TF_logo.png']' returned non-zero exit status 4.
+2025-04-29 20:26:37.555 | ERROR    | obsidian_utils.utils:compress_images:72 - Compression failed for data/test_run/raw/image.png: Command '['pngquant', '--quality=65-80', '--speed=1', '--strip', '--force', '--ext=.png', '--output', 'data/test_run/processed/image.png', '--', 'data/test_run/raw/image.png']' returned non-zero exit status 4.
+2025-04-29 20:26:37.556 | INFO     | obsidian_utils.utils:report_compression:100 - Compression Summary for run test_run
+2025-04-29 20:26:37.556 | INFO     | obsidian_utils.utils:report_compression:101 - Raw size: 1.04 MB
+2025-04-29 20:26:37.556 | INFO     | obsidian_utils.utils:report_compression:102 - Compressed size: 0.00 MB
+2025-04-29 20:26:37.556 | INFO     | obsidian_utils.utils:report_compression:103 - Space saved: 1.04 MB (100.0%)
+2025-04-29 20:26:37.556 | WARNING  | obsidian_utils.utils:report_compression:105 - Failed to compress 3 images
+2025-04-29 20:28:57.505 | INFO     | __main__:test_compress_directory:27 - Found 4 PNG files in data/raw
+2025-04-29 20:28:57.506 | INFO     | __main__:test_compress_directory:39 - Copied data/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png to data/test_run/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png
+2025-04-29 20:28:57.507 | INFO     | __main__:test_compress_directory:39 - Copied data/raw/image-fs8.png to data/test_run/raw/image-fs8.png
+2025-04-29 20:28:57.507 | INFO     | __main__:test_compress_directory:39 - Copied data/raw/TF_logo.png to data/test_run/raw/TF_logo.png
+2025-04-29 20:28:57.508 | INFO     | __main__:test_compress_directory:39 - Copied data/raw/image.png to data/test_run/raw/image.png
+2025-04-29 20:28:57.523 | ERROR    | obsidian_utils.utils:compress_images:85 - Compression failed for data/test_run/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png: Command '['pngquant', '--quality=65-80', '--speed=1', '--strip', '--force', '--ext=.png', '--output', 'data/test_run/processed/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png', '--', 'data/test_run/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png']' returned non-zero exit status 4.
+2025-04-29 20:28:57.523 | ERROR    | obsidian_utils.utils:compress_images:86 - Command output: 
+2025-04-29 20:28:57.523 | ERROR    | obsidian_utils.utils:compress_images:87 - Command error: --ext and --output options can't be used at the same time
+
+
+2025-04-29 20:28:57.527 | ERROR    | obsidian_utils.utils:compress_images:85 - Compression failed for data/test_run/raw/image-fs8.png: Command '['pngquant', '--quality=65-80', '--speed=1', '--strip', '--force', '--ext=.png', '--output', 'data/test_run/processed/image-fs8.png', '--', 'data/test_run/raw/image-fs8.png']' returned non-zero exit status 4.
+2025-04-29 20:28:57.527 | ERROR    | obsidian_utils.utils:compress_images:86 - Command output: 
+2025-04-29 20:28:57.527 | ERROR    | obsidian_utils.utils:compress_images:87 - Command error: --ext and --output options can't be used at the same time
+
+
+2025-04-29 20:28:57.530 | ERROR    | obsidian_utils.utils:compress_images:85 - Compression failed for data/test_run/raw/TF_logo.png: Command '['pngquant', '--quality=65-80', '--speed=1', '--strip', '--force', '--ext=.png', '--output', 'data/test_run/processed/TF_logo.png', '--', 'data/test_run/raw/TF_logo.png']' returned non-zero exit status 4.
+2025-04-29 20:28:57.530 | ERROR    | obsidian_utils.utils:compress_images:86 - Command output: 
+2025-04-29 20:28:57.530 | ERROR    | obsidian_utils.utils:compress_images:87 - Command error: --ext and --output options can't be used at the same time
+
+
+2025-04-29 20:28:57.534 | ERROR    | obsidian_utils.utils:compress_images:85 - Compression failed for data/test_run/raw/image.png: Command '['pngquant', '--quality=65-80', '--speed=1', '--strip', '--force', '--ext=.png', '--output', 'data/test_run/processed/image.png', '--', 'data/test_run/raw/image.png']' returned non-zero exit status 4.
+2025-04-29 20:28:57.534 | ERROR    | obsidian_utils.utils:compress_images:86 - Command output: 
+2025-04-29 20:28:57.534 | ERROR    | obsidian_utils.utils:compress_images:87 - Command error: --ext and --output options can't be used at the same time
+
+
+2025-04-29 20:28:57.535 | INFO     | obsidian_utils.utils:report_compression:115 - Compression Summary for run test_run
+2025-04-29 20:28:57.535 | INFO     | obsidian_utils.utils:report_compression:116 - Raw size: 1.27 MB
+2025-04-29 20:28:57.535 | INFO     | obsidian_utils.utils:report_compression:117 - Compressed size: 0.00 MB
+2025-04-29 20:28:57.535 | INFO     | obsidian_utils.utils:report_compression:118 - Space saved: 1.27 MB (100.0%)
+2025-04-29 20:28:57.535 | WARNING  | obsidian_utils.utils:report_compression:120 - Failed to compress 4 images
+2025-04-29 20:29:28.287 | INFO     | __main__:test_compress_directory:27 - Found 4 PNG files in data/raw
+2025-04-29 20:29:28.288 | INFO     | __main__:test_compress_directory:39 - Copied data/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png to data/test_run/raw/jira-generated-image-static-a2fca4f2-241d-47f9-8e7f-990ac3b7a7dc.png
+2025-04-29 20:29:28.288 | INFO     | __main__:test_compress_directory:39 - Copied data/raw/image-fs8.png to data/test_run/raw/image-fs8.png
+2025-04-29 20:29:28.289 | INFO     | __main__:test_compress_directory:39 - Copied data/raw/TF_logo.png to data/test_run/raw/TF_logo.png
+2025-04-29 20:29:28.289 | INFO     | __main__:test_compress_directory:39 - Copied data/raw/image.png to data/test_run/raw/image.png
+2025-04-29 20:29:28.455 | DEBUG    | obsidian_utils.utils:compress_images:83 - pngquant output: 
+2025-04-29 20:29:28.492 | DEBUG    | obsidian_utils.utils:compress_images:83 - pngquant output: 
+2025-04-29 20:29:28.509 | DEBUG    | obsidian_utils.utils:compress_images:83 - pngquant output: 
+2025-04-29 20:29:28.570 | DEBUG    | obsidian_utils.utils:compress_images:83 - pngquant output: 
+2025-04-29 20:29:28.571 | INFO     | obsidian_utils.utils:report_compression:115 - Compression Summary for run test_run
+2025-04-29 20:29:28.571 | INFO     | obsidian_utils.utils:report_compression:116 - Raw size: 1.27 MB
+2025-04-29 20:29:28.571 | INFO     | obsidian_utils.utils:report_compression:117 - Compressed size: 0.48 MB
+2025-04-29 20:29:28.571 | INFO     | obsidian_utils.utils:report_compression:118 - Space saved: 0.79 MB (62.4%)

@@ -1,0 +1,1 @@
+"""Obsidian image compression utilities.""" 
